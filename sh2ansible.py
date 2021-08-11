@@ -152,6 +152,6 @@ def main():
     if len(os.sys.argv) > 1:
         sh2ansible.read_bash(os.sys.argv[1])
     sh2ansible.convert()
-    print sh2ansible.export()
+    print (sh2ansible.export())
 
 main()
